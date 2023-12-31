@@ -12,7 +12,8 @@ struct Cell_impl
     int num_candidates;
     int candidates[BOARD_SIZE];
     int value; // solved or 0
-    bool fixed;
+    bool fixed; 
+    bool processed;
 };
 
 typedef struct Cell_impl Cell;
